@@ -13,9 +13,3 @@ for x in range(100,1000):
             ans.append(x * y)
 
 print(max(ans))
-
-
-    
-
-
-
