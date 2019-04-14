@@ -3,19 +3,32 @@
 
 
 primes = [2]
+c = 2
 
-for i in range(3,2000001):
-    x = 2
-    while i > x:
-        if i % x == 0:
-            x = 2
+
+
+def current(num):
+
+    for p in primes:
+        if num % p == 0:
+            return False
+    return True
+        
+
+for i in range(3,2000001): 
+    while i > c:
+        if current(i):
+            c = primes[-1] + 1
+        if i == c:
+            primes.append(i)
+            print(primes[-1])
             break
-        else:
-            x = x + 1
-    if i == x:
-        primes.append(i)
-        print(primes[-1])
-    else:
-        x = 2
+        c = primes[-1] + 1
+
+        
+
+        
+    
+
 
 print(sum(primes))
