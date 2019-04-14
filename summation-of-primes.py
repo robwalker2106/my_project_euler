@@ -11,7 +11,6 @@ def current(num):
     for p in primes:
         if num % p == 0:
             return False
-    #print("not in prime")
     return True
         
 
