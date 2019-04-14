@@ -18,6 +18,4 @@ for i in nums:
                 x = 2
                 break
 
-
-
 print(prime_nums)
