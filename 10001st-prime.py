@@ -3,7 +3,7 @@
 
 from math import floor,sqrt
 
-limit = 10001
+limit = 10000
 count = 1
 candidate = 1
 
@@ -30,35 +30,8 @@ def is_prime(n):
     return True
     
 while count < limit:
+    candidate = candidate + 2
     if is_prime(candidate):
         count = count + 1
-    candidate = candidate + 1
 
 print(candidate)
-
-#primes = [2]
-#i = 3
-
-#def current(num):
-
- #   for p in primes:
-  #      if num % p == 0:
-   #         return False
-    #return True
-        
-#while len(primes) < 10001:
- #   c = primes[-1]
-  #  stop = current(i)
-   # if stop and i > c:
-    #    while i > c:
-     #       if i % c == 0:
-      #          break
-       #     else:
-        #        c = c + 1
-    #if i == c:
-     #   primes.append(i)
-    #i = i + 1
-
-    #print(primes[-1])
-
-# print(primes[-1])
