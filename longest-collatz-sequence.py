@@ -18,7 +18,7 @@ def collatz_seq(n):
     if n % 2 ==0:
         values[n] = 1 + collatz_seq(n/2)
     else:
-        values[n] = 1 + collatz_seq((3 * n) + 1)
+        values[n] = 2 + collatz_seq(((3 * n) + 1)/2)
     return values[n]
 
 
