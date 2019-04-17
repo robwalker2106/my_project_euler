@@ -10,22 +10,21 @@
 ans = 0
 num = 0
 
+values = {1: 1}
+
 def collatz_seq(n):
-    count = 1
-    while n > 1:
-        if n % 2 == 0:
-            n = n/2
-            count = count + 1
-        else:
-            n = (3 * n) + 1
-            count = count + 1
-    return count
+    if n in values:
+        return values[n]
+    if n % 2 ==0:
+        values[n] = 1 + collatz_seq(n/2)
+    else:
+        values[n] = 1 + collatz_seq((3 * n) + 1)
+    return values[n]
 
 
-for i in range(1000001):
-    x = collatz_seq(i)
-    if x > ans:
-        ans = x
+for i in range(500001,1000001):
+    if collatz_seq(i) > ans:
+        ans = collatz_seq(i)
         num = i
 
 print(num)    
