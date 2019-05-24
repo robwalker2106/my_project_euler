@@ -15,10 +15,10 @@ int main(){
     int x {2};
     while (x < i) {
         if (i % x == 0){
-            i = i / x;
+            i /= x;
         }
         else {
-            x = x + 1;
+            x += 1;
         }
     }
     std::cout << "The largest prime factor of " << num << " is " << x << "." << std::endl; 
