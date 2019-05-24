@@ -6,13 +6,13 @@ This is promblem 3 on www.ProjectEular.net.
 #include <iostream>
 
 int main(){
-    int x = 2;
+    int x {2};
     int64_t num;
    
     std::cout << "Input an integer to determine its largest prime: ";
     std::cin >> num;
 
-    int64_t i = num;
+    int64_t i {num};
     while (x < i) {
         if (i % x == 0){
             i = i / x;
