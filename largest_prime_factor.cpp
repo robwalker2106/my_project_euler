@@ -1,6 +1,6 @@
 /*
-This script is to find the largest prime factor from the number
-600851475143.  This is promblem 3 on www.ProjectEular.net.
+This script is to find the largest prime factor from a number.
+This is promblem 3 on www.ProjectEular.net.
 */
 
 #include <iostream>
