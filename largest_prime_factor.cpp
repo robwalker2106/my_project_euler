@@ -8,10 +8,10 @@ This is promblem 3 on www.ProjectEular.net.
 int main(){
 
     std::cout << "Input an integer to determine its largest prime: ";
-    int64_t num {0};
+    long int num {0};
     std::cin >> num;
 
-    int64_t i {num};
+    long int i {num};
     int x {2};
     while (x < i) {
         if (i % x == 0){
