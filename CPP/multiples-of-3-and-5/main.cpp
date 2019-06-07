@@ -7,13 +7,13 @@
  */
 
 int main(){
+    std::cout << "Enter a number to add up the multiples of 3 and 5 below the given number: " << std::endl;
+    int num {0};
+    std::cin >> num;
     int ans {0};
-    for (int i{999}; i >= 0; --i){
-        if(i % 15 == 0){
+    for (int i{num -1}; i >= 0; --i){
+        if(i % 15 == 0 || i % 3 == 0 || i % 5 == 0)
             ans += i;
-        } else if (i % 3 == 0 || i % 5 == 0){
-            ans += i;
-        }
     }
     std::cout << ans << std::endl;
     return 0;
