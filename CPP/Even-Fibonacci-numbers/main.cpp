@@ -11,7 +11,7 @@
  */
 
 int main(){
-    std::cout << "Enter a value to find the sum of the even-valued terms\nbelow the entered number: " << std::endl;
+    std::cout << "Enter a value to find the sum of the even-valued terms\nbelow the entered number: ";
     
     int ans{2};
     int seq{0};
@@ -28,6 +28,6 @@ int main(){
            ans += num2;
         }
 
-    std::cout << ans;
+    std::cout << ans << std::endl;
     return 0;
 }
