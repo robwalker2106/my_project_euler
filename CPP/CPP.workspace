@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="CPP" Database="" Version="10.0.0">
   <Project Name="multiples-of-3-and-5" Path="multiples-of-3-and-5/multiples-of-3-and-5.project" Active="Yes"/>
+  <Project Name="Even-Fibonacci-numbers" Path="Even-Fibonacci-numbers/Even-Fibonacci-numbers.project"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
       <Project Name="multiples-of-3-and-5" ConfigName="Debug"/>
+      <Project Name="Even-Fibonacci-numbers" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
       <Project Name="multiples-of-3-and-5" ConfigName="Release"/>
+      <Project Name="Even-Fibonacci-numbers" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
