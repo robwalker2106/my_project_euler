@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ multiples-of-3-and-5 - Debug ]----------"
-	@cd "multiples-of-3-and-5" && "$(MAKE)" -f  "multiples-of-3-and-5.mk"
+	@echo "----------Building project:[ Even-Fibonacci-numbers - Debug ]----------"
+	@cd "Even-Fibonacci-numbers" && "$(MAKE)" -f  "Even-Fibonacci-numbers.mk"
 clean:
-	@echo "----------Cleaning project:[ multiples-of-3-and-5 - Debug ]----------"
-	@cd "multiples-of-3-and-5" && "$(MAKE)" -f  "multiples-of-3-and-5.mk" clean
+	@echo "----------Cleaning project:[ Even-Fibonacci-numbers - Debug ]----------"
+	@cd "Even-Fibonacci-numbers" && "$(MAKE)" -f  "Even-Fibonacci-numbers.mk" clean
