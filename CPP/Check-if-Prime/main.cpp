@@ -21,8 +21,8 @@ int main(){
     int r = floor(sqrt(num));
     int f{5};
     bool prime{true};
-    std::string notPrime {"is not a prime number."};
-    std::string isPrime {"is a prime number."};
+    std::string notPrime {" is not a prime number."};
+    std::string isPrime {" is a prime number."};
     
     if (num == 1){
         cout << num << notPrime << endl;
