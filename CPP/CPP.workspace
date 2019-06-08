@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="CPP" Database="" Version="10.0.0">
-  <Project Name="Even-Fibonacci-numbers" Path="Even-Fibonacci-numbers/Even-Fibonacci-numbers.project" Active="Yes"/>
+  <Project Name="Check-if-Prime" Path="Check-if-Prime/Check-if-Prime.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
-      <Project Name="Even-Fibonacci-numbers" ConfigName="Debug"/>
+      <Project Name="Check-if-Prime" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
-      <Project Name="Even-Fibonacci-numbers" ConfigName="Release"/>
+      <Project Name="Check-if-Prime" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
