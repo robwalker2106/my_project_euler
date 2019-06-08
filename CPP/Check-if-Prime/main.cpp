@@ -8,37 +8,42 @@
 #include <iostream>
 #include <math.h>
 
+using std::cout;
+using std::cin;
+using std::endl;
+
+
 int main(){
-    std::cout << "Enter an number to check if it is a prime number: ";
+    cout << "Enter an number to check if it is a prime number: ";
     
     int num{0};
-    std::cin >> num;
+    cin >> num;
     int r = floor(sqrt(num));
     int f{5};
     bool prime{true};
-    char notPrime{' is not a prime number.'};
-    char isPrime{' is a prime number.'};
+    std::string notPrime {"is not a prime number."};
+    std::string isPrime {"is a prime number."};
     
     if (num == 1){
-        std::cout << num << notPrime << std::endl;
+        cout << num << notPrime << endl;
     } else if (num == 2 || num == 3) {
-        std::cout << "Of course " << num << isPrime << std::endl;
+        cout << "Of course " << num << isPrime << endl;
     } else if (num < 4) {
-        std::cout << num << notPrime << std::endl;
+        cout << num << notPrime << endl;
     } else if (num % 2 == 0){
-        std::cout << num << notPrime << std::endl;
+        cout << num << notPrime << endl;
     } else if (num < 9){
-        std::cout << num << isPrime << std::endl;
+        cout << num << isPrime << endl;
     } else if (num % 3 == 0){
-        std::cout << num << notPrime << std::endl;
+        cout << num << notPrime << endl;
     } else {
         while (f <= r){
             if (num % f == 0){
-                std::cout << num << notPrime << std::endl;
+                cout << num << notPrime << endl;
                 prime = false;
                 break;
             } else if (num % (f+2) == 0){
-                std::cout << num << notPrime << std::endl;
+                cout << num << notPrime << endl;
                 prime = false;
                 break;
             }
@@ -46,7 +51,7 @@ int main(){
         }
     }
     if (prime){
-        std::cout << num << isPrime << std::endl;
+        cout << num << isPrime << endl;
     }
     
     return 0;
