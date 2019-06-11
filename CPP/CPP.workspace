@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="CPP" Database="" Version="10.0.0">
-  <Project Name="Check-if-Prime" Path="Check-if-Prime/Check-if-Prime.project" Active="Yes"/>
+  <Project Name="summation-of-primes" Path="summation-of-primes/summation-of-primes.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
-      <Project Name="Check-if-Prime" ConfigName="Debug"/>
+      <Project Name="summation-of-primes" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
-      <Project Name="Check-if-Prime" ConfigName="Release"/>
+      <Project Name="summation-of-primes" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
